@@ -19,14 +19,14 @@
 </head>
 
 <body>
-    <div class="principal">
+    <div class="principal" id="home">
         <nav>
             <h2 class="portfolio">Portfo<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Fale Comigo</a></li>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">Fale Comigo</a></li>
             </ul>
         </nav>
 
@@ -36,14 +36,60 @@
         </div>
     </div>
 
-    <section>
+    <section id="sobre">
         <img src="img/fotoporfolio.png" alt="Minha foto">
         <div>
-            <h2>Sobre Mim</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam consequuntur nesciunt magnam alias maxime minus iusto, dicta eos! Ducimus nulla modi voluptates reprehenderit officia minus fuga officiis temporibus architecto?</p>
+            <h2>Sobre <span>Mim</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam consequuntur nesciunt magnam alias
+                maxime minus iusto, dicta eos! Ducimus nulla modi voluptates reprehenderit officia minus fuga officiis
+                temporibus architecto?</p>
             <button>Entre em contato</button>
         </div>
     </section>
+
+    <div class="projetos" id="projetos-id">
+        <h2>Principais <span>Projetos</span></h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="img/underconstsign.png" alt="Em construção">
+                <h5>Projeto 1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellendus quo illo</p>
+                <a href="@" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="img/underconstsign.png" alt="Em construção">
+                <h5>Projeto 2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellendus quo illo</p>
+                <a href="@" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="img/underconstsign.png" alt="Em construção">
+                <h5>Projeto 3</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellendus quo illo</p>
+                <a href="@" target="_blank">Ver Projeto</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="fale-comigo">
+        <h5>Jonas Cortes</h5>
+        <p>para mais informações</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/jonascortesdev/" target="_blank"><img
+                    src="img/logo-linkedin-icon-1536.png" alt="linked in logo"></a>
+
+            <a href="https://wa.me/+5511963561276" target="_blank"><img src="img/logo-whatsapp-preta-com-nome-512.png"
+                    alt="whatsapp logo"></a>
+
+            <a href="https://github.com/JoncCortes" target="_blank"><img src="img/github-512.png" alt="github logo"></a>
+        </div>
+    </footer>
 
 </body>
 
