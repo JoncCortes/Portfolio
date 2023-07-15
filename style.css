@@ -41,7 +41,7 @@ li {
     cursor: pointer;
 }
 
-.link-menu{
+.link-menu {
     color: white;
     text-decoration: none;
 }
@@ -121,6 +121,7 @@ section div button:hover {
 .projetos {
     background-color: #191919;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .projetos h2 {
